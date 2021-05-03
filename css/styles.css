@@ -1,0 +1,176 @@
+body{
+  background: #fff;
+  font-family: 'Roboto', sans-serif;
+}
+/* .container{
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+} */
+.site-navigator{
+   display: flex;
+  align-items: center;
+}
+
+.site-navigator a{
+text-decoration: none;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 17px;
+line-height: 20px;
+/* identical to box height */
+
+
+color: #373737;
+}
+
+.nav-items{
+  list-style: none;
+  display: flex;
+  align-items: center;
+
+}
+.nav-items a{
+  display: flex;
+  padding: 5px;
+}
+
+.site-header{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.button-apply{
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 17px;
+line-height: 20px;
+text-align: center;
+background: #fff;
+color: #505050;
+border: 2px solid #717CFF;
+border-radius: 11px;
+padding: 5px 10px;
+}
+.button-apply-online{
+  border-radius: 5px;
+  align-items: center;
+}
+.button-online-strelka{
+  align-items: center;
+  display: flex;
+  background: #717CFF;
+  justify-content: space-between;
+border-radius: 11px;
+width: 200px;
+padding: 12px 20px 12px 34px;
+border: none;
+}
+.button-online-strelka a{
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 40px;
+color: #FFFFFF;
+text-decoration: none;
+
+}
+
+.we-help{
+  width: 632px;
+}
+.we-help span{
+  color: #717CFF;
+}
+.we-help-all{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  }
+  .we-help h2{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 56px;
+    line-height: 66px;
+    color: #2F2F2F;
+  }
+
+  .we-help h3{
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 38px;
+color: #7D7D7D;
+  }
+
+.foto-studentka{
+  width: 470px;
+  height: 565px;
+}
+
+.sot-set{
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+  align-items: center;
+  width: 113px;
+  justify-content: space-between;
+
+}
+
+.university h2{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 23px;
+  line-height: 27px;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 2.1px;
+  text-transform: uppercase;
+  color: #373737;
+  mix-blend-mode: normal;
+  opacity: 0.73;
+}
+
+.logo-university{
+  display: flex;
+  justify-content: space-around;
+  padding: 168px 116px 175px 128px;
+}
+
+.partners-button-active{
+width: 14px;
+height: 14px;
+background-color: #717CFF;
+border-radius: 50px;
+border: none;
+}
+
+.partners-button{
+  width: 10px;
+  height: 10px;
+  background: rgba(124, 124, 124, 0.318837);
+  border-radius: 50px;
+  border: none;
+  padding: 0;
+
+}
+
+.buttons{
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.university{
+background-color: #FAFAFA;
+padding: 55px 116px 57px 128px;
+}
