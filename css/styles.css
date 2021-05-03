@@ -316,17 +316,59 @@ body {
   text-align: center;
   letter-spacing: -0.4625px;
   color: #373737;
+
 }
 
 .news-htwo p {
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 22px;
   line-height: 38px;
   text-align: center;
   color: #7D7D7D;
+  width: 949px;
+  height: 80px;
 }
+
+.birinchi h3{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 26px;
+  color: #252525;
+  width: 344px;
+}
+
+.ikkinchi h3 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 26px;
+  color: #252525;
+  width: 344px;
+}
+
+.uchinchi h3{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 26px;
+  color: #252525;
+  width: 344px;
+}
+
+.news {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+
+
 
 
 
