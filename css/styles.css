@@ -3,14 +3,24 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-/* .container{
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-} */
+.container{
+max-width: 1320px;
+padding-left: 20px;
+padding-right: 20px;
+margin-left: auto;
+margin-right: auto;
+}
+
+
+.container-one{
+  display: flex;
+  align-items: center;
+
+}
 .site-navigator {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .site-navigator a {
@@ -72,6 +82,7 @@ body {
   width: 200px;
   padding: 12px 20px 12px 34px;
   border: none;
+  margin-bottom: 105px;
 }
 
 .button-online-strelka a {
@@ -366,13 +377,93 @@ body {
   align-items: center;
   justify-content: space-around;
 }
+.nav-items li{
+  margin-right: 70px;
 
+}
+.clas-we-help{
+  display: flex;
+}
+.intro{
+  padding-top: 90px;
+}
+.we-help p{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 38px;
+  color: #7D7D7D;
+}
 
+.we-help p {
+  margin-bottom: 42px;
+}
 
+.buttons li{
+  margin-right: 21px;
+  list-style: none;
+  margin-bottom: 179px;
+}
 
+.our-servisec{
+  margin-right: 47px;
+}
 
+.home{
+  margin-right: 47px;
+}
 
+.news-htwo {
+  margin-top: 228px;
+}
+.news-htwo p {
+  margin: 25px 245px 119px 246px;
+}
 
+.button-join-here {
+  align-items: center;
+  display: flex;
+  background: #717CFF;
+  justify-content: space-between;
+  border-radius: 11px;
+  width: 200px;
+  padding: 12px 20px 12px 34px;
+  border: none;
+  margin-bottom: 105px;
+  margin: 146px 607px 222px 607px;
+}
 
+.button-join-here a {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 40px;
+  color: #FFFFFF;
+  text-decoration: none;
 
+}
 
+.upcoming h3{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 37px;
+  line-height: 54px;
+  text-align: center;
+  letter-spacing: -0.4625px;
+  color: #373737;
+  margin: 0px 492px 25px 492px;
+}
+
+.upcoming p{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 38px;
+  text-align: center;
+  color: #7D7D7D;
+  margin: 0px 245px 100px 245px;
+}

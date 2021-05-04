@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Executive site</title>
+  <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/styles.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
@@ -13,9 +14,11 @@
 </head>
 
 <body>
-  <div class="container">
+  <div>
     <header class="site-header">
-      <a href="#"> <img src="./img/logo-black.svg" alt="logo executive study" width="146" height="52"></a>
+
+      <div class="container container-one">
+        <a href="#"> <img src="./img/logo-black.svg" alt="logo executive study" width="146" height="52"></a>
       <nav class="site-navigator">
         <ul class="nav-items">
           <li><a href="#">Home</a></li>
@@ -23,33 +26,41 @@
           <li><a href="#">Our Services</a></li>
           <li><a href="#">Responsibilities</a></li>
           <li><a href="#">Country</a></li>
-          <button class="button-apply" type="button">Apply</button>
-        </ul>
 
+        </ul>
+        <button class="button-apply" type="button">Apply</button>
       </nav>
+      </div>
     </header>
     <main>
-      <h1>Executive study</h1>
-      <div class="we-help-all">
-        <div class="we-help">
-          <h2>We Help to <span>Build</span>
-            Your Dream</h2>
-          <h3>We are always availed to consult on taking your higher education to the next level so you can stay
-            competitive in the</h3>
-          <div class="button-online-strelka">
-            <a href="#">Apply Online</a>
-            <img src="./img/strelkacha.svg" alt="icon strelka">
-          </div>
 
-          <ul class="sot-set">
-            <li><a href="https://www.facebook.com"> <img src="./img/facebook.svg" alt="logo facebook"></a></li>
-            <li><a href="https://www.twitter.com"> <img src="./img/twitter.svg" alt="logo twitter"></a></li>
-            <li><a href="https://www.instagram.com"> <img src="./img/instagram.svg" alt="logo instagram"></a></li>
-          </ul>
+      <!-- <h1>Executive study</h1> -->
+      <section class="intro">
+        <div class="container">
+          <div class="clas-we-help">
+            <div class="we-help">
+              <h2>We Help to <span>Build</span>
+                Your Dream</h2>
+              <p>We are always availed to consult on taking your higher education to the next level so you can stay
+                competitive in the</p>
+              <div class="button-online-strelka">
+                <a href="#">Apply Online</a>
+                <img src="./img/strelkacha.svg" alt="icon strelka">
+              </div>
+
+              <div class="div-sotset">
+                <ul class="sot-set">
+                  <li><a href="https://www.facebook.com"> <img src="./img/facebook.svg" alt="logo facebook"></a></li>
+                  <li><a href="https://www.twitter.com"> <img src="./img/twitter.svg" alt="logo twitter"></a></li>
+                  <li><a href="https://www.instagram.com"> <img src="./img/instagram.svg" alt="logo instagram"></a></li>
+                </ul>
+              </div>
+            </div>
+            <span class="foto-studentka"><img src="./img/studentka.png" alt="foto student girl" width="470" height="565"
+                srcset="./img/studentka.png 1x, ./img/studentka.png 2x"></span>
+          </div>
         </div>
-        <span class="foto-studentka"><img src="./img/studentka.png" alt="foto student girl" width="470" height="565"
-            srcset="./img/studentka.png 1x, ./img/studentka.png 2x"></span>
-      </div>
+      </section>
 
       <div class="university">
         <h2>Featured Universities</h2>
@@ -59,23 +70,25 @@
           <img src="img/newcastle.svg" alt="logo newcastle" width="224" height="79">
           <img src="img/latrobe.svg" alt="logo latrobe" width="275" height="62">
         </div>
-        <div class="buttons">
-          <button class="partners-button-active" type="button"></button>
-          <button class="partners-button" type="button"></button>
-          <button class="partners-button" type="button"></button>
-          <button class="partners-button" type="button"></button>
-        </div>
+        <ul class="buttons">
+          <li><button class="partners-button-active" type="button"></button></li>
+          <li><button class="partners-button" type="button"></button></li>
+          <li><button class="partners-button" type="button"></button></li>
+          <li><button class="partners-button" type="button"></button></li>
+        </ul>
 
         <section>
           <div>
-            <h2>Our Services</h2>
+            <div>
+              <h2>Our Services</h2>
             <h3>
               Executive Trade International is an University Application Centre, guiding Bangladeshi students to
               Australian, British, Canadian and Irish universities!
             </h3>
+            </div>
           <div class="our-servisec">
             <div class="career">
-              <img src="./img/icon-career.svg" alt="ikonka" width="76px" height="76px">
+              <img src="./img/icon-career.svg" alt="ikonka" width="76" height="76">
               <h3>
                 Career Counselling
               </h3>
@@ -87,7 +100,7 @@
             </div>
 
             <div class="university">
-              <img src="./img/icon-university.svg" alt="ikonka" width="76px" height="76px">
+              <img src="./img/icon-university.svg" alt="ikonka" width="76" height="76">
               <h3>University Admissions</h3>
               <p>
                 Maiores voluptas laboriosam non dolorum perferendis fuga repellat aut. Blanditiis quos in minus.
@@ -109,7 +122,7 @@
           </div>
           <div class="our-servisec-two">
             <div class="home">
-              <img src="./img/icon-home.svg" alt="ikonka" width="76px" height="76px">
+              <img src="./img/icon-home.svg" alt="ikonka" width="76" height="76">
               <h3>Accommodation</h3>
               <p>
                 Maiores voluptas laboriosam non dolorum perferendis fuga repellat aut. Blanditiis  dicta accusantium fugiat.
@@ -120,7 +133,7 @@
             </div>
 
             <div class="fly">
-              <img src="./img/icon-fly.svg" alt="ikonka" width="76px" height="76px">
+              <img src="./img/icon-fly.svg" alt="ikonka" width="76" height="76">
               <h3>Pre-Departure Briefing</h3>
               <p>
                 Maiores voluptas laboriosam non dolorum perferendis fuga repellat aut.  dolorem dicta accusantium fugiat.
@@ -157,10 +170,20 @@
             <p>17 Apr 2020</p>
             <h3>How a Little Bit of Hydra Regrows a Whole Animal</h3>
           </div>
+
         </div>
       </div>
         </section>
       </div>
+   <section>
+    <div class="button-join-here">
+      <a href="#">Join Here</a>
+      <img src="./img/strelkacha.svg" alt="icon strelka">
+    </div>
+
+
+  </section>
+
     </main>
   </div>
 </body>
